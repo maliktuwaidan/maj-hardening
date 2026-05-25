@@ -19,6 +19,7 @@ sudo dnf install -y \
     libxslt-devel libxml2-devel libtool glibc-devel \
     java-21-openjdk-devel \
     wxGTK-devel wxBase \
+    inotify-tools \
     git curl
 
 echo "==> Installing asdf v${ASDF_VER}"
